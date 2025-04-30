@@ -1660,6 +1660,9 @@ hr {
   opacity: 1;
   visibility: visible;
 }
+.single-item:hover {
+  transform: translateY(-30px);
+}
 .portfolio-wrapper img {
   width: 100%;
   height: 950px; /* ou la hauteur que tu veux */
@@ -1676,6 +1679,7 @@ hr {
     height: 850px; /* ou la hauteur que tu veux */
     object-fit: cover;
   }
+  
   
 }
 
